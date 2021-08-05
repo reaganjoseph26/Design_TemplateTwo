@@ -14,11 +14,11 @@ TweenMax.staggerFrom('.nav-links ul li', 1, {
     ease: Power4.easeInOut
 }, 0.08);
 
-// TweenMax.to('.border-bottom', 1, {
-//     delay: 1.4,
-//     width: '100%',
-//     ease: Expo.easeInOut
-// });
+TweenMax.to('.border-bottom', 1, {
+    delay: 1.4,
+    width: '100%',
+    ease: Expo.easeInOut
+});
 
 TweenMax.from('.subtitle', 1, {
     delay: 2.8,
@@ -52,17 +52,17 @@ TweenMax.to('.img-1', 1, {
     ease: Expo.easeInOut
 });
 
-TweenMax.to('.img-2', 1, {
-    delay: 2.2,
-    width: '300px',
-    ease: Expo.easeInOut
-});
+// TweenMax.to('.img-2', 1, {
+//     delay: 2.2,
+//     width: '300px',
+//     ease: Expo.easeInOut
+// });
 
-TweenMax.to('.img-3', 1, {
-    delay: 2.2,
-    width: '300px',
-    ease: Expo.easeInOut
-});
+// TweenMax.to('.img-3', 1, {
+//     delay: 2.2,
+//     width: '300px',
+//     ease: Expo.easeInOut
+// });
 
 TweenMax.from('.desc', 1, {
     delay: 2.8,
