@@ -7,7 +7,7 @@ TweenMax.from('.logo', 1, {
     ease: Expo.easeInOut
 });
 
-TweenMax.staggerFrom('.nav-links ul li', 1, {
+TweenMax.staggerFrom('.nav-links ul li a', 1, {
     delay: 1.2,
     opacity: 0,
     x: -20,
@@ -89,3 +89,4 @@ TweenMax.to('.third', 1.5, {
     left:'-100%',
     ease: Expo.easeInOut
 });
+
